@@ -20,7 +20,7 @@ function App() {
 
     <div className="demo-big-content">
     <Layout>
-        <Header title="Title" scroll>
+        <Header className="header-color" title="My Portfolio" scroll>
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/my_projects">My Projects</Link>
