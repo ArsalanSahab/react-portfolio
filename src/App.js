@@ -22,13 +22,13 @@ function App() {
     <Layout>
         <Header className="header-color" title="My Portfolio" scroll>
             <Navigation>
-                <Link to="/aboutme">About Me</Link>
+                <Link to="/">Home</Link>
                 <Link to="/my_projects">My Projects</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact Me</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Portfolio">
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/aboutme">About Me</Link>
